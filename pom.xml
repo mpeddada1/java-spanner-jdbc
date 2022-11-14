@@ -69,7 +69,7 @@
       <dependency>
         <groupId>com.google.cloud</groupId>
         <artifactId>google-cloud-shared-dependencies</artifactId>
-        <version>3.0.5</version>
+        <version>3.0.7-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -236,7 +236,7 @@
               com.google.cloud.spanner.GceTestEnvConfig
             </spanner.testenv.config.class>
             <spanner.testenv.instance>
-              projects/gcloud-devel/instances/spanner-testing-east1
+              projects/mpeddada-test/instances/spanner-testing
             </spanner.testenv.instance>
           </systemPropertyVariables>
         </configuration>
